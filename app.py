@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 import warnings
 warnings.filterwarnings("ignore")
 
-load_dotenv('.env')
+load_dotenv('creds.env')
 
 SLACK_BOT_TOKEN=os.environ.get("SLACK_BOT_TOKEN")
 SLACK_APP_TOKEN=os.environ.get("SLACK_APP_TOKEN")
