@@ -1,0 +1,8 @@
+langchain
+openai
+pypdf
+chromadb
+tiktoken
+langchain-openai
+python-dotenv
+slack_bolt
